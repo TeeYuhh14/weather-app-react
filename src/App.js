@@ -8,14 +8,24 @@ function App() {
       <div className="container">
         <Weather defaultCity="Cape Town" />
         <footer>
-          This project was coded by Tia Demas and is{" "}
+          This project was coded by{" "}
+          <a
+            href="https://github.com/TeeYuhh14"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Tia Demas
+          </a>{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/TeeYuhh14/weather-app-react"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on GitHub
-          </a>
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a href="https://deft-basbousa-42d877.netlify.app/">Netlify.</a>
         </footer>
       </div>
     </div>
